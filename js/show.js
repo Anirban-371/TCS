@@ -16,6 +16,8 @@ $('#finalSubmit').click(function(){
     for(var i=0;i<objArr.length;i++){
         if($("#fileUpload"+i).get(0).files.length == 0) {
             alert("Please upload all files");
+        }else{
+            alert("Submitted Successfully");
         }
 
     }
